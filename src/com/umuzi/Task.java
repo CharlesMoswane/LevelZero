@@ -17,4 +17,14 @@ public class Task {
         else
             System.out.println("Even");
     }
+
+    public double areaOfATriangle(double sideA,double sideB,double sideC){
+        double semiperimeter,area;
+        //Calculate the semiperimeter of the triangle
+        semiperimeter = (1/2) * (sideA + sideB +sideC);
+        //The area is then calculated using Heron's formula
+        area = Math.sqrt(semiperimeter * (semiperimeter - sideA) * (semiperimeter - sideB)
+                * (semiperimeter - sideC));
+        return area;
+    }
 }
