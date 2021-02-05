@@ -30,7 +30,7 @@ public class Main {
         a = 1 + 1 * 2 / 2;
         b = (1 + 1 * 2) / 2;
 
-        System.out.println("Task 0.2");
+        System.out.println("\n" + "Task 0.2");
         System.out.println(x + "\n" + y + "\n" + z + "\n" + a + "\n" + b);
     }
 
