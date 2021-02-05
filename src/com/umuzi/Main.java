@@ -4,8 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+
         taskOne();
         taskTwo();
+        taskThree();
 
     }
 
@@ -34,7 +36,7 @@ public class Main {
         System.out.println(x + "\n" + y + "\n" + z + "\n" + a + "\n" + b);
     }
 
-    private void taskThree() {
+    private static void taskThree() {
 
     }
 
