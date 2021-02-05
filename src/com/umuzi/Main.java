@@ -7,7 +7,6 @@ public class Main {
 
         taskOne();
         taskTwo();
-        taskThree();
 
     }
 
@@ -36,35 +35,6 @@ public class Main {
         System.out.println(x + "\n" + y + "\n" + z + "\n" + a + "\n" + b);
     }
 
-    private static void taskThree() {
 
-    }
 
-    private void taskFour() {
-
-    }
-
-    private void taskFive() {
-
-    }
-
-    private void taskSix() {
-
-    }
-
-    private void taskSeven() {
-
-    }
-
-    private void taskEight() {
-
-    }
-
-    private void taskNine() {
-
-    }
-
-    private void taskTen() {
-
-    }
 }
