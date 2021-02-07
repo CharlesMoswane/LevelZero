@@ -28,5 +28,17 @@ public class Task {
         return area;
     }
 
+    public double maximum(double one, double two, double three){
+        double max = 0;
+
+        if(one > two && one > three)
+            max = one;
+        else if(two > three)
+            max = two;
+        else
+            max = three;
+
+        return max;
+    }
 
 }
