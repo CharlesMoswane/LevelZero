@@ -45,4 +45,18 @@ public class Task {
         return max;
     }
 
+    //Task 0.7
+    public double celsiusToFahrenheit(double temperature){
+        double temperatureInFahrenheit = (temperature * (9/5)) + 32;
+
+        return temperatureInFahrenheit;
+    }
+
+    //Task 0.7
+    public double fahrenheitToCelsius(double temperature) {
+        double temperatureInFahrenheit = (temperature - 32) * (5 / 9);
+
+        return temperatureInFahrenheit;
+    }
+
 }
