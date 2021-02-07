@@ -6,10 +6,12 @@ public class Task {
 
     }
 
+    //Task 0.3
     public void hello(String name){
         System.out.println("Hello " + name);
     }
 
+    //Task 0.4
     public void evenOrOdd(int num){
         double remainder = num%2;
         if (remainder != 0)
@@ -18,6 +20,7 @@ public class Task {
             System.out.println("Even");
     }
 
+    //Task 0.5
     public double areaOfATriangle(double sideA,double sideB,double sideC){
         double semiperimeter,area;
         //Calculate the semiperimeter of the triangle
@@ -28,6 +31,7 @@ public class Task {
         return area;
     }
 
+    //Task 0.6
     public double maximum(double one, double two, double three){
         double max = 0;
 
