@@ -6,13 +6,44 @@ public class Task {
 
     }
 
+    //Task 0.1
+    public void taskOne() {
+        System.out.println("\n" + "Task 0.1");
+
+        int x = 0;
+        int y = 1;
+        System.out.println(x);
+        System.out.println(y);
+        x = x + 3;
+        y = y + x;
+        System.out.println(x);
+        System.out.println(y);
+    }
+
+    //Task 0.2
+    public void taskTwo() {
+        System.out.println("\n" + "Task 0.2");
+        int x,y,z,a,b;
+
+        x = 1 + 1 * 2;
+        y = (1 + 1) * 2;
+        z = 1 + (1 * 2);
+        a = 1 + 1 * 2 / 2;
+        b = (1 + 1 * 2) / 2;
+
+        System.out.println(x + "\n" + y + "\n" + z + "\n" + a + "\n" + b);
+    }
+
     //Task 0.3
     public void hello(String name){
+        System.out.println("\n" + "Task 0.3");
         System.out.println("Hello " + name);
     }
 
     //Task 0.4
     public void evenOrOdd(int num){
+        System.out.println("\n" + "Task 0.4");
+
         double remainder = num%2;
         if (remainder != 0)
             System.out.println("Odd");
@@ -22,6 +53,8 @@ public class Task {
 
     //Task 0.5
     public double areaOfATriangle(double sideA,double sideB,double sideC){
+        System.out.println("\n" + "Task 0.5");
+
         double semiperimeter,area;
         //Calculate the semiperimeter of the triangle
         semiperimeter = (1/2) * (sideA + sideB +sideC);
@@ -33,6 +66,8 @@ public class Task {
 
     //Task 0.6
     public double maximum(double one, double two, double three){
+        System.out.println("\n" + "Task 0.6");
+
         double max = 0;
 
         if(one > two && one > three)
@@ -47,6 +82,8 @@ public class Task {
 
     //Task 0.7
     public double celsiusToFahrenheit(double temperature){
+        System.out.println("\n" + "Task 0.7");
+
         double temperatureInFahrenheit = (temperature * (9/5)) + 32;
 
         return temperatureInFahrenheit;
@@ -54,6 +91,8 @@ public class Task {
 
     //Task 0.7
     public double fahrenheitToCelsius(double temperature) {
+        System.out.println("\n" + "Task 0.7");
+
         double temperatureInFahrenheit = (temperature - 32) * (5 / 9);
 
         return temperatureInFahrenheit;
@@ -61,6 +100,7 @@ public class Task {
 
     //Task 0.8
     public void hoursAndMinutes(int number){
+        System.out.println("\n" + "Task 0.9");
 
         int hours = number/60;
         int minutes = number%60;
@@ -73,12 +113,11 @@ public class Task {
             System.out.println(hours + " hour, " + minutes + " minutes");
         else
             System.out.println(hours + " hour, " + minutes + " minute");
-
     }
 
     //Task 0.9
     public void printVowels(String word){
-
+        System.out.println("\n" + "Task 0.9" + "\n");
         System.out.println(word);
 
         char[] vowels = {'a','e','i','o','u'};
@@ -89,12 +128,11 @@ public class Task {
             if (lowerCaseWord.contains(vowel))
                 System.out.print(vowel + " ");
         }
-
     }
 
     //Task 0.10
     public void commonLetters(String word1, String word2){
-
+        System.out.println("\n" + "Task 0.10" + "\n");
         System.out.println(word1);
         System.out.println(word2);
 
