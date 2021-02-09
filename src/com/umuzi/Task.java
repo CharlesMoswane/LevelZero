@@ -6,12 +6,6 @@ public class Task {
 
     }
 
-    //Task 0.3
-    public void hello(String name){
-        System.out.println("\n" + "Task 0.3");
-        System.out.println("Hello " + name);
-    }
-
     //Task 0.4
     public void evenOrOdd(int num){
         System.out.println("\n" + "Task 0.4");
