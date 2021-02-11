@@ -1,7 +1,7 @@
 package com.umuzi;
 
 public class TaskFive {
-    //Task 0.5
+
     public double areaOfATriangle(double sideA,double sideB,double sideC){
         System.out.println("\n" + "Task 0.5");
 
@@ -13,4 +13,5 @@ public class TaskFive {
                 * (semiperimeter - sideC));
         return area;
     }
+
 }

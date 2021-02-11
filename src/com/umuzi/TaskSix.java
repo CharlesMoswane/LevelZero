@@ -1,7 +1,7 @@
 package com.umuzi;
 
 public class TaskSix {
-    //Task 0.6
+
     public double maximum(double one, double two, double three){
         System.out.println("\n" + "Task 0.6");
 
@@ -16,4 +16,5 @@ public class TaskSix {
 
         return max;
     }
+
 }

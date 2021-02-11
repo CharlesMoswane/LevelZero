@@ -1,7 +1,7 @@
 package com.umuzi;
 
 public class TaskTen {
-    //Task 0.10
+
     public void commonLetters(String word1, String word2){
         System.out.println("\n" + "Task 0.10" + "\n");
         System.out.println(word1);
@@ -17,4 +17,5 @@ public class TaskTen {
                 System.out.print(letter + " ");
         }
     }
+
 }

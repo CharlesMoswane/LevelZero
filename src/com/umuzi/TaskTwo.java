@@ -1,7 +1,7 @@
 package com.umuzi;
 
 public class TaskTwo {
-    //Task 0.2
+
     public void taskTwo() {
         System.out.println("\n" + "Task 0.2");
         int x,y,z,a,b;
@@ -14,4 +14,5 @@ public class TaskTwo {
 
         System.out.println(x + "\n" + y + "\n" + z + "\n" + a + "\n" + b);
     }
+
 }

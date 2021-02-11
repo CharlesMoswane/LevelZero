@@ -1,8 +1,8 @@
 package com.umuzi;
 
 public class TaskOne {
-    //Task 0.1
     public void taskOne() {
+
         System.out.println("\n" + "Task 0.1");
 
         int x = 0;
@@ -14,4 +14,5 @@ public class TaskOne {
         System.out.println(x);
         System.out.println(y);
     }
+
 }

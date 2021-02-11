@@ -1,7 +1,7 @@
 package com.umuzi;
 
 public class TaskEight {
-    //Task 0.8
+
     public void hoursAndMinutes(int number){
         System.out.println("\n" + "Task 0.9");
 
@@ -17,4 +17,5 @@ public class TaskEight {
         else
             System.out.println(hours + " hour, " + minutes + " minute");
     }
+
 }

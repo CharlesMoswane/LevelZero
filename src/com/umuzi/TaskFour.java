@@ -1,7 +1,7 @@
 package com.umuzi;
 
 public class TaskFour {
-    //Task 0.4
+
     public void evenOrOdd(int num){
         System.out.println("\n" + "Task 0.4");
 
@@ -11,4 +11,5 @@ public class TaskFour {
         else
             System.out.println("Even");
     }
+
 }

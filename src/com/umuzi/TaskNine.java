@@ -1,7 +1,7 @@
 package com.umuzi;
 
 public class TaskNine {
-    //Task 0.9
+
     public void printVowels(String word){
         System.out.println("\n" + "Task 0.9" + "\n");
         System.out.println(word);
@@ -15,4 +15,5 @@ public class TaskNine {
                 System.out.print(vowel + " ");
         }
     }
+
 }
