@@ -1,6 +1,7 @@
 package com.umuzi;
 
 public class TaskOne {
+
     public void taskOne() {
 
         System.out.println("\n" + "Task 0.1");
