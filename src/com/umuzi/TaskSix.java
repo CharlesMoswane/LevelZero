@@ -17,4 +17,17 @@ public class TaskSix {
         return max;
     }
 
+    public double maximum(double ... numbers){
+        System.out.println("\n" + "Task 0.6 Bonus");
+
+        double max = 0;
+
+        for (double number : numbers){
+            if (number > max)
+                max = number;
+        }
+
+        return max;
+    }
+
 }

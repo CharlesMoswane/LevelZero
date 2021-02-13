@@ -8,9 +8,9 @@ public class TaskEight {
         int hours = number/60;
         int minutes = number%60;
 
-        if(hours > 1 && minutes != 1)
+        if(hours != 1 && minutes != 1)
             System.out.println(hours + " hours, " + minutes + " minutes");
-        else if(hours > 1 && minutes == 1)
+        else if(hours != 1 && minutes == 1)
             System.out.println(hours + " hours, " + minutes + " minute");
         else if(hours == 1 && minutes > 1)
             System.out.println(hours + " hour, " + minutes + " minutes");
