@@ -32,6 +32,11 @@ public class Main {
         max = task6.maximum(1,2,3,4,5,6);
         System.out.println(max);
 
+        //Task 9
+        TaskNine task9 = new TaskNine();
+        task9.printVowels("Hey There");
+        //I cannot replicate the problem. The vowel is only printed once.
+
     }
 
 }
