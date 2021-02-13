@@ -7,7 +7,7 @@ public class TaskFive {
 
         double semiperimeter,area;
         //Calculate the semiperimeter of the triangle
-        semiperimeter = (1/2) * (sideA + sideB +sideC);
+        semiperimeter = 0.5 * (sideA + sideB +sideC);
         //The area is then calculated using Heron's formula
         area = Math.sqrt(semiperimeter * (semiperimeter - sideA) * (semiperimeter - sideB)
                 * (semiperimeter - sideC));
