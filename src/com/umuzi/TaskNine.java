@@ -4,7 +4,6 @@ public class TaskNine {
 
     public void printVowels(String word){
         System.out.println("\n" + "Task 0.9" + "\n");
-        System.out.println(word);
 
         char[] vowels = {'a','e','i','o','u'};
         String lowerCaseWord = word.toLowerCase();
@@ -14,6 +13,7 @@ public class TaskNine {
             if (lowerCaseWord.contains(vowel))
                 System.out.print(vowel + " ");
         }
+        System.out.println();
     }
 
 }

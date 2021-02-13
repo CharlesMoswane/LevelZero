@@ -34,8 +34,12 @@ public class Main {
 
         //Task 9
         TaskNine task9 = new TaskNine();
-        task9.printVowels("Hey There");
+        task9.printVowels("Heey There");
         //I cannot replicate the problem. The vowel is only printed once.
+
+        //Task 10
+        TaskTen task10 = new TaskTen();
+        task10.commonLetters("helloo","wooorld");
 
     }
 
