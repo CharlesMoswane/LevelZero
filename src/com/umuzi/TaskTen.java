@@ -2,6 +2,10 @@ package com.umuzi;
 
 public class TaskTen {
 
+    /*Earlier it was requested that the repeating vowels should not be
+      printed out more than once. I am thus baffled by the request to "Print
+      out all the vowels." Does this override the earlier requirement or
+      it means something entirely different?*/
     public void commonLetters(String word1, String word2){
         System.out.println("\n" + "Task 0.10" + "\n");
 

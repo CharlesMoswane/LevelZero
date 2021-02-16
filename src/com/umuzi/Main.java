@@ -36,6 +36,10 @@ public class Main {
         TaskNine task9 = new TaskNine();
         task9.printVowels("Heey There");
         //I cannot replicate the problem. The vowel is only printed once.
+        /*Earlier it was requested that the repeating vowels should not be
+          printed out more than once. I am thus baffled by the request to "Print
+          out all the vowels." Does this override the earlier requirement or
+          it means something entirely different?*/
 
         //Task 10
         TaskTen task10 = new TaskTen();
