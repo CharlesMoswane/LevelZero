@@ -6,17 +6,17 @@ public class TaskTen {
         String lowerCaseWord1 = word1.toLowerCase();
         String lowerCaseWord2 = word2.toLowerCase();
         char[] word2Letters = lowerCaseWord2.toCharArray();
-        String commonLetters = "";
+        StringBuilder commonLetters = new StringBuilder();
 
-        for (char l : word2Letters){
-            String letter = Character.toString(l);
+        for (char character : word2Letters){
+            String letter = Character.toString(character);
             if (lowerCaseWord1.contains(letter)){
-                System.out.print(l + " ");
+                commonLetters.append(character + ", ");
                 lowerCaseWord1 = removeDuplicateCharacters(lowerCaseWord1,letter);
             }
         }
-
-        System.out.println(commonLetters);
+        commonLetters.delete(commonLetters.length()-2,commonLetters.length()-1);
+        System.out.println(commonLetters.toString());
     }
 
     public static String removeDuplicateCharacters(String word, String character){

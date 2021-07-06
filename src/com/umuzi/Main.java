@@ -24,7 +24,7 @@ public class Main {
 //        System.out.println(task7.fahrenheitToCelsius(68));
 //        task8.hoursAndMinutes(180);
 //        task8.hoursAndMinutes(18);
-        task9.printVowels("Heey There you");
+//        task9.printVowels("Heey There you");
 //        task10.commonLetters("helloo","wooorld");
 
     }
