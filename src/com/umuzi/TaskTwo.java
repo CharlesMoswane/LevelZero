@@ -3,7 +3,6 @@ package com.umuzi;
 public class TaskTwo {
 
     public void taskTwo() {
-        System.out.println("\n" + "Task 0.2");
         int x,y,z,a,b;
 
         x = 1 + 1 * 2;

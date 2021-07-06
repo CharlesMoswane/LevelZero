@@ -3,8 +3,6 @@ package com.umuzi;
 public class TaskEight {
 
     public void hoursAndMinutes(int number){
-        System.out.println("\n" + "Task 0.9");
-
         int hours = number/60;
         int minutes = number%60;
 
