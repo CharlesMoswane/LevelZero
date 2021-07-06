@@ -21,10 +21,10 @@ public class Main {
 //        System.out.println(task5.areaOfATriangle(5,3,4));
 //        System.out.println(task6.maximum(3,7,4));
 //        System.out.println(task7.celsiusToFahrenheit(20));
-        System.out.println(task7.fahrenheitToCelsius(68));
+//        System.out.println(task7.fahrenheitToCelsius(68));
 //        task8.hoursAndMinutes(180);
 //        task8.hoursAndMinutes(18);
-//        task9.printVowels("Heey There");
+        task9.printVowels("Heey There you");
 //        task10.commonLetters("helloo","wooorld");
 
     }
